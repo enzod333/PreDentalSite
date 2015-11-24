@@ -329,6 +329,7 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 40px;
     text-align: center;
+    
     /*
     This is where you would think fixes the header background.    
     */
@@ -632,7 +633,8 @@ section h3.section-subheading {
     }
 }
 section#team {
-    background-image: url(../img/tooth-bg.png);
+    //background-image: url(../img/tooth-bg.png);
+    background-color: #f0f5f5;
     background-position: center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -668,12 +670,10 @@ aside.clients img {
 }
 
 section#team .float-box-head {
-    width: 216px;
-    height: 100px;
-    margin-left: 602px;
-    /*margin-right: 575px;*/
+    text-align: center;
     display: inline-block;
-    background-color:#ffffff;
+    //display: table-header-group;
+    //background-color:#ffffff;
     /*border:1px solid black;*/
     opacity:0.95;
 }
