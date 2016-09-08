@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #330033;
 }
 
 a:hover,
@@ -54,6 +54,11 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    text-align: center;
+}
+
+h4 #more-events {
+    text-color: #330033;
 }
 
 .img-centered {
@@ -135,8 +140,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
+    color: #330033;
+    background-color: #fec136;
 }
 
 .btn-xl:active,
@@ -166,12 +171,12 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color: #fed136;
-    background-color: #fff;
+    background-color: #330033;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #330033;
 }
 
 .navbar-default .navbar-brand {
@@ -226,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #330033;
     background-color: #fec503;
 }
 
@@ -241,7 +246,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2.75em;
+        font-size: 2.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -253,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #330033;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -275,7 +280,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -321,15 +326,15 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    text-align: center;
-    
+    //text-align: center;
+    text-color: #330033;
     /*
     This is where you would think fixes the header background.    
     */
@@ -495,10 +500,10 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 5px solid #fff;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
+    color: #330033;
     background-color: #fed136;
 }
 
@@ -652,7 +657,7 @@ section#team {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 5px solid #fff;
 }
 
 .team-member h4 {
@@ -669,8 +674,19 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#about {
+    padding: 100px 25px;
+    background-color: #f2f2f2;
+}
+
+
+section#team {
+    padding: 100px;
+    background-color: #f2f2f2;
+}
+
 section#team .float-box-head {
-    text-align: center;
+    //text-align: center;
     display: inline-block;
     //display: table-header-group;
     //background-color:#ffffff;
@@ -762,13 +778,14 @@ section#contact .text-danger {
 }
 
 footer {
-    background-color: /*#B66DB6 Light Purple*/#FFFFFF;
+    background-color: /*#B66DB6 Light Purple#FFFFFF*/ #330033;
     padding: 25px 0;
     text-align: center;
 }
 
 footer span.copyright {
-    text-color: #FFFFFF;
+    color: #fed136;
+    text-color: #fed136;
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -795,8 +812,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: #e6e6e6;
+    background-color: #fed136;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -805,7 +822,8 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #fec503;
+    color: #330033;
 }
 
 .btn:focus,
